@@ -1,0 +1,36 @@
+{
+  "name": "scan-dependencies",
+  "version": "1.0.0",
+  "description": "Search for require() recursively",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdemedes/scan-dependencies.git"
+  },
+  "keywords": [
+    "dependencies",
+    "require",
+    "deps",
+    "scan-deps"
+  ],
+  "author": "Vadim Demedes <vdemedes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdemedes/scan-dependencies/issues"
+  },
+  "homepage": "https://github.com/vdemedes/scan-dependencies#readme",
+  "dependencies": {
+    "array-uniq": "^1.0.2",
+    "detective": "^4.1.1",
+    "is-core-module": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul-harmony": "^0.3.16",
+    "make-lint": "vdemedes/make-lint",
+    "mocha": "^2.2.5"
+  }
+}
