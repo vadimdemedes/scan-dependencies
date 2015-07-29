@@ -1,4 +1,4 @@
-# scan-dependencies
+# scan-dependencies [![Circle CI](https://circleci.com/gh/vdemedes/scan-dependencies.svg?style=svg)](https://circleci.com/gh/vdemedes/scan-dependencies)
 
 Search recursively for `require()` calls to build a complete dependency tree.
 It skips core modules and reports only 3rd-party ones.
@@ -31,6 +31,8 @@ deps = [
 
 
 ### Tests
+
+[![Circle CI](https://circleci.com/gh/vdemedes/scan-dependencies.svg?style=svg)](https://circleci.com/gh/vdemedes/scan-dependencies)
 
 ```
 $ make test
